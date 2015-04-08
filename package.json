@@ -1,0 +1,22 @@
+{
+  "name": "yi-utils",
+  "version": "1.0.0",
+  "description": "utils for stevezheng",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevezheng/YiUtils.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "stevezheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevezheng/YiUtils/issues"
+  },
+  "homepage": "https://github.com/stevezheng/YiUtils"
+}
