@@ -20,9 +20,9 @@ def get_ip_list(begin_ip, count, netmask):
     return ip_list
 
 if __name__ == "__main__":
-    begin_ip = '2a12:a302:1:a2b8::'
-    ipv6_list2  = get_ip_list(begin_ip = begin_ip, count=200, netmask=127)
+    begin_ip = '2a12:a302:1:a2b9::'
+    ipv6_list2  = get_ip_list(begin_ip = begin_ip, count=500, netmask=127)
     print('批量分配互联IPv6地址:')
     print('============================')
     for i in ipv6_list2.split('\n'):
-        print(f'up ip addr add {i}/64 dev eth0')
+        print(f'   up ip addr add {i}/64 dev eth0')
