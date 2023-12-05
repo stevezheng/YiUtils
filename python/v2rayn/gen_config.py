@@ -19,6 +19,6 @@ dns:
     return config
 
 if __name__ == "__main__":
-    result = gen(40000, 30000, 500, '141.98.196.192', '2b27d76f-6ab0-478f-83c1-44877b29c324', '/ws')
+    result = gen(40000, 50000, 500, '103.150.8.43', 'b2a14412-99f4-4f60-a147-78f168d6e446', '/wss')
     with open('config.yml', 'w') as f:
         f.write(result)
