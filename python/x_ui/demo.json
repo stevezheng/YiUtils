@@ -1,0 +1,201 @@
+{
+  "api": {
+    "services": ["HandlerService", "LoggerService", "StatsService"],
+    "tag": "api"
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 62789,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "address": "127.0.0.1"
+      },
+      "tag": "api"
+    },
+    {
+      "port": 20000,
+      "protocol": "vmess",
+      "tag": "tag_1",
+      "settings": {
+        "clients": [
+          {
+            "id": "592297ff-7786-42bb-a59d-00beb4a9be7b"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/ws"
+        }
+      }
+    },
+    {
+      "port": 20001,
+      "protocol": "vmess",
+      "tag": "tag_2",
+      "settings": {
+        "clients": [
+          {
+            "id": "592297ff-7786-42bb-a59d-00beb4a9be7b"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/ws"
+        }
+      }
+    },
+    {
+      "port": 20002,
+      "protocol": "vmess",
+      "tag": "tag_3",
+      "settings": {
+        "clients": [
+          {
+            "id": "592297ff-7786-42bb-a59d-00beb4a9be7b"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/ws"
+        }
+      }
+    },
+    {
+      "port": 20003,
+      "protocol": "vmess",
+      "tag": "tag_4",
+      "settings": {
+        "clients": [
+          {
+            "id": "592297ff-7786-42bb-a59d-00beb4a9be7b"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/ws"
+        }
+      }
+    },
+    {
+      "port": 20004,
+      "protocol": "vmess",
+      "tag": "tag_5",
+      "settings": {
+        "clients": [
+          {
+            "id": "592297ff-7786-42bb-a59d-00beb4a9be7b"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/ws"
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "sendThrough": "74.48.19.232",
+      "protocol": "freedom",
+      "tag": "tag_1"
+    },
+    {
+      "sendThrough": "172.17.0.1",
+      "protocol": "freedom",
+      "tag": "tag_2"
+    },
+    {
+      "sendThrough": "2607:f130:0:105:ff:ff:a020:dfca",
+      "protocol": "freedom",
+      "tag": "tag_3"
+    },
+    {
+      "sendThrough": "2607:f130:0:105:ff:ff:a020:dfc8",
+      "protocol": "freedom",
+      "tag": "tag_4"
+    },
+    {
+      "sendThrough": "2607:f130:0:105:ff:ff:a020:dfc6",
+      "protocol": "freedom",
+      "tag": "tag_5"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {},
+      "tag": "blocked"
+    }
+  ],
+  "policy": {
+    "levels": {
+      "0": {
+        "handshake": 10,
+        "connIdle": 100,
+        "uplinkOnly": 2,
+        "downlinkOnly": 3,
+        "statsUserUplink": true,
+        "statsUserDownlink": true,
+        "bufferSize": 10240
+      }
+    },
+    "system": {
+      "statsInboundDownlink": true,
+      "statsInboundUplink": true
+    }
+  },
+  "routing": {
+    "rules": [
+      {
+        "inboundTag": ["api"],
+        "outboundTag": "api",
+        "type": "field"
+      },
+      {
+        "ip": ["geoip:private"],
+        "outboundTag": "blocked",
+        "type": "field"
+      },
+      {
+        "outboundTag": "blocked",
+        "protocol": ["bittorrent"],
+        "type": "field"
+      },
+      {
+        "type": "field",
+        "inboundTag": "tag_1",
+        "outboundTag": "tag_1"
+      },
+      {
+        "type": "field",
+        "inboundTag": "tag_2",
+        "outboundTag": "tag_2"
+      },
+      {
+        "type": "field",
+        "inboundTag": "tag_3",
+        "outboundTag": "tag_3"
+      },
+      {
+        "type": "field",
+        "inboundTag": "tag_4",
+        "outboundTag": "tag_4"
+      },
+      {
+        "type": "field",
+        "inboundTag": "tag_5",
+        "outboundTag": "tag_5"
+      }
+    ]
+  },
+  "stats": {}
+}
