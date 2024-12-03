@@ -20,7 +20,7 @@ def get_ip_list(begin_ip, count, netmask):
             ip_list += begin_ip + '\n'
     return ip_list
 
-def generate_xray_json(start_port=20000, begin_ipv6='2401:b60:e00e:7121::', count=3, netmask=127):
+def generate_xray_json(start_port=35000, begin_ipv6='2001:b030:a42d:5dc0:185::', count=3, netmask=127):
     # 基础配置
     config = {
         "api": {
@@ -116,8 +116,8 @@ def generate_xray_json(start_port=20000, begin_ipv6='2401:b60:e00e:7121::', coun
 
 if __name__ == "__main__":
     generate_xray_json(
-        start_port=55000,
-        begin_ipv6='2a0a:4cc0:1:46:544b:93ff:fe6b:2051',
+        start_port=35000,
+        begin_ipv6='2001:b030:a42d:5dc0:185::',
         count=300,
         netmask=127
     )

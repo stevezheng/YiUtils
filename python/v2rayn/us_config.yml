@@ -1,0 +1,7512 @@
+
+allow-lan: true
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 114.114.114.114
+  nameserver:
+    - https://doh.pub/dns-query
+listeners:
+  - name: mixed42000
+    port: 42000
+    proxy: proxy42000
+    type: mixed
+  - name: mixed42001
+    port: 42001
+    proxy: proxy42001
+    type: mixed
+  - name: mixed42002
+    port: 42002
+    proxy: proxy42002
+    type: mixed
+  - name: mixed42003
+    port: 42003
+    proxy: proxy42003
+    type: mixed
+  - name: mixed42004
+    port: 42004
+    proxy: proxy42004
+    type: mixed
+  - name: mixed42005
+    port: 42005
+    proxy: proxy42005
+    type: mixed
+  - name: mixed42006
+    port: 42006
+    proxy: proxy42006
+    type: mixed
+  - name: mixed42007
+    port: 42007
+    proxy: proxy42007
+    type: mixed
+  - name: mixed42008
+    port: 42008
+    proxy: proxy42008
+    type: mixed
+  - name: mixed42009
+    port: 42009
+    proxy: proxy42009
+    type: mixed
+  - name: mixed42010
+    port: 42010
+    proxy: proxy42010
+    type: mixed
+  - name: mixed42011
+    port: 42011
+    proxy: proxy42011
+    type: mixed
+  - name: mixed42012
+    port: 42012
+    proxy: proxy42012
+    type: mixed
+  - name: mixed42013
+    port: 42013
+    proxy: proxy42013
+    type: mixed
+  - name: mixed42014
+    port: 42014
+    proxy: proxy42014
+    type: mixed
+  - name: mixed42015
+    port: 42015
+    proxy: proxy42015
+    type: mixed
+  - name: mixed42016
+    port: 42016
+    proxy: proxy42016
+    type: mixed
+  - name: mixed42017
+    port: 42017
+    proxy: proxy42017
+    type: mixed
+  - name: mixed42018
+    port: 42018
+    proxy: proxy42018
+    type: mixed
+  - name: mixed42019
+    port: 42019
+    proxy: proxy42019
+    type: mixed
+  - name: mixed42020
+    port: 42020
+    proxy: proxy42020
+    type: mixed
+  - name: mixed42021
+    port: 42021
+    proxy: proxy42021
+    type: mixed
+  - name: mixed42022
+    port: 42022
+    proxy: proxy42022
+    type: mixed
+  - name: mixed42023
+    port: 42023
+    proxy: proxy42023
+    type: mixed
+  - name: mixed42024
+    port: 42024
+    proxy: proxy42024
+    type: mixed
+  - name: mixed42025
+    port: 42025
+    proxy: proxy42025
+    type: mixed
+  - name: mixed42026
+    port: 42026
+    proxy: proxy42026
+    type: mixed
+  - name: mixed42027
+    port: 42027
+    proxy: proxy42027
+    type: mixed
+  - name: mixed42028
+    port: 42028
+    proxy: proxy42028
+    type: mixed
+  - name: mixed42029
+    port: 42029
+    proxy: proxy42029
+    type: mixed
+  - name: mixed42030
+    port: 42030
+    proxy: proxy42030
+    type: mixed
+  - name: mixed42031
+    port: 42031
+    proxy: proxy42031
+    type: mixed
+  - name: mixed42032
+    port: 42032
+    proxy: proxy42032
+    type: mixed
+  - name: mixed42033
+    port: 42033
+    proxy: proxy42033
+    type: mixed
+  - name: mixed42034
+    port: 42034
+    proxy: proxy42034
+    type: mixed
+  - name: mixed42035
+    port: 42035
+    proxy: proxy42035
+    type: mixed
+  - name: mixed42036
+    port: 42036
+    proxy: proxy42036
+    type: mixed
+  - name: mixed42037
+    port: 42037
+    proxy: proxy42037
+    type: mixed
+  - name: mixed42038
+    port: 42038
+    proxy: proxy42038
+    type: mixed
+  - name: mixed42039
+    port: 42039
+    proxy: proxy42039
+    type: mixed
+  - name: mixed42040
+    port: 42040
+    proxy: proxy42040
+    type: mixed
+  - name: mixed42041
+    port: 42041
+    proxy: proxy42041
+    type: mixed
+  - name: mixed42042
+    port: 42042
+    proxy: proxy42042
+    type: mixed
+  - name: mixed42043
+    port: 42043
+    proxy: proxy42043
+    type: mixed
+  - name: mixed42044
+    port: 42044
+    proxy: proxy42044
+    type: mixed
+  - name: mixed42045
+    port: 42045
+    proxy: proxy42045
+    type: mixed
+  - name: mixed42046
+    port: 42046
+    proxy: proxy42046
+    type: mixed
+  - name: mixed42047
+    port: 42047
+    proxy: proxy42047
+    type: mixed
+  - name: mixed42048
+    port: 42048
+    proxy: proxy42048
+    type: mixed
+  - name: mixed42049
+    port: 42049
+    proxy: proxy42049
+    type: mixed
+  - name: mixed42050
+    port: 42050
+    proxy: proxy42050
+    type: mixed
+  - name: mixed42051
+    port: 42051
+    proxy: proxy42051
+    type: mixed
+  - name: mixed42052
+    port: 42052
+    proxy: proxy42052
+    type: mixed
+  - name: mixed42053
+    port: 42053
+    proxy: proxy42053
+    type: mixed
+  - name: mixed42054
+    port: 42054
+    proxy: proxy42054
+    type: mixed
+  - name: mixed42055
+    port: 42055
+    proxy: proxy42055
+    type: mixed
+  - name: mixed42056
+    port: 42056
+    proxy: proxy42056
+    type: mixed
+  - name: mixed42057
+    port: 42057
+    proxy: proxy42057
+    type: mixed
+  - name: mixed42058
+    port: 42058
+    proxy: proxy42058
+    type: mixed
+  - name: mixed42059
+    port: 42059
+    proxy: proxy42059
+    type: mixed
+  - name: mixed42060
+    port: 42060
+    proxy: proxy42060
+    type: mixed
+  - name: mixed42061
+    port: 42061
+    proxy: proxy42061
+    type: mixed
+  - name: mixed42062
+    port: 42062
+    proxy: proxy42062
+    type: mixed
+  - name: mixed42063
+    port: 42063
+    proxy: proxy42063
+    type: mixed
+  - name: mixed42064
+    port: 42064
+    proxy: proxy42064
+    type: mixed
+  - name: mixed42065
+    port: 42065
+    proxy: proxy42065
+    type: mixed
+  - name: mixed42066
+    port: 42066
+    proxy: proxy42066
+    type: mixed
+  - name: mixed42067
+    port: 42067
+    proxy: proxy42067
+    type: mixed
+  - name: mixed42068
+    port: 42068
+    proxy: proxy42068
+    type: mixed
+  - name: mixed42069
+    port: 42069
+    proxy: proxy42069
+    type: mixed
+  - name: mixed42070
+    port: 42070
+    proxy: proxy42070
+    type: mixed
+  - name: mixed42071
+    port: 42071
+    proxy: proxy42071
+    type: mixed
+  - name: mixed42072
+    port: 42072
+    proxy: proxy42072
+    type: mixed
+  - name: mixed42073
+    port: 42073
+    proxy: proxy42073
+    type: mixed
+  - name: mixed42074
+    port: 42074
+    proxy: proxy42074
+    type: mixed
+  - name: mixed42075
+    port: 42075
+    proxy: proxy42075
+    type: mixed
+  - name: mixed42076
+    port: 42076
+    proxy: proxy42076
+    type: mixed
+  - name: mixed42077
+    port: 42077
+    proxy: proxy42077
+    type: mixed
+  - name: mixed42078
+    port: 42078
+    proxy: proxy42078
+    type: mixed
+  - name: mixed42079
+    port: 42079
+    proxy: proxy42079
+    type: mixed
+  - name: mixed42080
+    port: 42080
+    proxy: proxy42080
+    type: mixed
+  - name: mixed42081
+    port: 42081
+    proxy: proxy42081
+    type: mixed
+  - name: mixed42082
+    port: 42082
+    proxy: proxy42082
+    type: mixed
+  - name: mixed42083
+    port: 42083
+    proxy: proxy42083
+    type: mixed
+  - name: mixed42084
+    port: 42084
+    proxy: proxy42084
+    type: mixed
+  - name: mixed42085
+    port: 42085
+    proxy: proxy42085
+    type: mixed
+  - name: mixed42086
+    port: 42086
+    proxy: proxy42086
+    type: mixed
+  - name: mixed42087
+    port: 42087
+    proxy: proxy42087
+    type: mixed
+  - name: mixed42088
+    port: 42088
+    proxy: proxy42088
+    type: mixed
+  - name: mixed42089
+    port: 42089
+    proxy: proxy42089
+    type: mixed
+  - name: mixed42090
+    port: 42090
+    proxy: proxy42090
+    type: mixed
+  - name: mixed42091
+    port: 42091
+    proxy: proxy42091
+    type: mixed
+  - name: mixed42092
+    port: 42092
+    proxy: proxy42092
+    type: mixed
+  - name: mixed42093
+    port: 42093
+    proxy: proxy42093
+    type: mixed
+  - name: mixed42094
+    port: 42094
+    proxy: proxy42094
+    type: mixed
+  - name: mixed42095
+    port: 42095
+    proxy: proxy42095
+    type: mixed
+  - name: mixed42096
+    port: 42096
+    proxy: proxy42096
+    type: mixed
+  - name: mixed42097
+    port: 42097
+    proxy: proxy42097
+    type: mixed
+  - name: mixed42098
+    port: 42098
+    proxy: proxy42098
+    type: mixed
+  - name: mixed42099
+    port: 42099
+    proxy: proxy42099
+    type: mixed
+  - name: mixed42100
+    port: 42100
+    proxy: proxy42100
+    type: mixed
+  - name: mixed42101
+    port: 42101
+    proxy: proxy42101
+    type: mixed
+  - name: mixed42102
+    port: 42102
+    proxy: proxy42102
+    type: mixed
+  - name: mixed42103
+    port: 42103
+    proxy: proxy42103
+    type: mixed
+  - name: mixed42104
+    port: 42104
+    proxy: proxy42104
+    type: mixed
+  - name: mixed42105
+    port: 42105
+    proxy: proxy42105
+    type: mixed
+  - name: mixed42106
+    port: 42106
+    proxy: proxy42106
+    type: mixed
+  - name: mixed42107
+    port: 42107
+    proxy: proxy42107
+    type: mixed
+  - name: mixed42108
+    port: 42108
+    proxy: proxy42108
+    type: mixed
+  - name: mixed42109
+    port: 42109
+    proxy: proxy42109
+    type: mixed
+  - name: mixed42110
+    port: 42110
+    proxy: proxy42110
+    type: mixed
+  - name: mixed42111
+    port: 42111
+    proxy: proxy42111
+    type: mixed
+  - name: mixed42112
+    port: 42112
+    proxy: proxy42112
+    type: mixed
+  - name: mixed42113
+    port: 42113
+    proxy: proxy42113
+    type: mixed
+  - name: mixed42114
+    port: 42114
+    proxy: proxy42114
+    type: mixed
+  - name: mixed42115
+    port: 42115
+    proxy: proxy42115
+    type: mixed
+  - name: mixed42116
+    port: 42116
+    proxy: proxy42116
+    type: mixed
+  - name: mixed42117
+    port: 42117
+    proxy: proxy42117
+    type: mixed
+  - name: mixed42118
+    port: 42118
+    proxy: proxy42118
+    type: mixed
+  - name: mixed42119
+    port: 42119
+    proxy: proxy42119
+    type: mixed
+  - name: mixed42120
+    port: 42120
+    proxy: proxy42120
+    type: mixed
+  - name: mixed42121
+    port: 42121
+    proxy: proxy42121
+    type: mixed
+  - name: mixed42122
+    port: 42122
+    proxy: proxy42122
+    type: mixed
+  - name: mixed42123
+    port: 42123
+    proxy: proxy42123
+    type: mixed
+  - name: mixed42124
+    port: 42124
+    proxy: proxy42124
+    type: mixed
+  - name: mixed42125
+    port: 42125
+    proxy: proxy42125
+    type: mixed
+  - name: mixed42126
+    port: 42126
+    proxy: proxy42126
+    type: mixed
+  - name: mixed42127
+    port: 42127
+    proxy: proxy42127
+    type: mixed
+  - name: mixed42128
+    port: 42128
+    proxy: proxy42128
+    type: mixed
+  - name: mixed42129
+    port: 42129
+    proxy: proxy42129
+    type: mixed
+  - name: mixed42130
+    port: 42130
+    proxy: proxy42130
+    type: mixed
+  - name: mixed42131
+    port: 42131
+    proxy: proxy42131
+    type: mixed
+  - name: mixed42132
+    port: 42132
+    proxy: proxy42132
+    type: mixed
+  - name: mixed42133
+    port: 42133
+    proxy: proxy42133
+    type: mixed
+  - name: mixed42134
+    port: 42134
+    proxy: proxy42134
+    type: mixed
+  - name: mixed42135
+    port: 42135
+    proxy: proxy42135
+    type: mixed
+  - name: mixed42136
+    port: 42136
+    proxy: proxy42136
+    type: mixed
+  - name: mixed42137
+    port: 42137
+    proxy: proxy42137
+    type: mixed
+  - name: mixed42138
+    port: 42138
+    proxy: proxy42138
+    type: mixed
+  - name: mixed42139
+    port: 42139
+    proxy: proxy42139
+    type: mixed
+  - name: mixed42140
+    port: 42140
+    proxy: proxy42140
+    type: mixed
+  - name: mixed42141
+    port: 42141
+    proxy: proxy42141
+    type: mixed
+  - name: mixed42142
+    port: 42142
+    proxy: proxy42142
+    type: mixed
+  - name: mixed42143
+    port: 42143
+    proxy: proxy42143
+    type: mixed
+  - name: mixed42144
+    port: 42144
+    proxy: proxy42144
+    type: mixed
+  - name: mixed42145
+    port: 42145
+    proxy: proxy42145
+    type: mixed
+  - name: mixed42146
+    port: 42146
+    proxy: proxy42146
+    type: mixed
+  - name: mixed42147
+    port: 42147
+    proxy: proxy42147
+    type: mixed
+  - name: mixed42148
+    port: 42148
+    proxy: proxy42148
+    type: mixed
+  - name: mixed42149
+    port: 42149
+    proxy: proxy42149
+    type: mixed
+  - name: mixed42150
+    port: 42150
+    proxy: proxy42150
+    type: mixed
+  - name: mixed42151
+    port: 42151
+    proxy: proxy42151
+    type: mixed
+  - name: mixed42152
+    port: 42152
+    proxy: proxy42152
+    type: mixed
+  - name: mixed42153
+    port: 42153
+    proxy: proxy42153
+    type: mixed
+  - name: mixed42154
+    port: 42154
+    proxy: proxy42154
+    type: mixed
+  - name: mixed42155
+    port: 42155
+    proxy: proxy42155
+    type: mixed
+  - name: mixed42156
+    port: 42156
+    proxy: proxy42156
+    type: mixed
+  - name: mixed42157
+    port: 42157
+    proxy: proxy42157
+    type: mixed
+  - name: mixed42158
+    port: 42158
+    proxy: proxy42158
+    type: mixed
+  - name: mixed42159
+    port: 42159
+    proxy: proxy42159
+    type: mixed
+  - name: mixed42160
+    port: 42160
+    proxy: proxy42160
+    type: mixed
+  - name: mixed42161
+    port: 42161
+    proxy: proxy42161
+    type: mixed
+  - name: mixed42162
+    port: 42162
+    proxy: proxy42162
+    type: mixed
+  - name: mixed42163
+    port: 42163
+    proxy: proxy42163
+    type: mixed
+  - name: mixed42164
+    port: 42164
+    proxy: proxy42164
+    type: mixed
+  - name: mixed42165
+    port: 42165
+    proxy: proxy42165
+    type: mixed
+  - name: mixed42166
+    port: 42166
+    proxy: proxy42166
+    type: mixed
+  - name: mixed42167
+    port: 42167
+    proxy: proxy42167
+    type: mixed
+  - name: mixed42168
+    port: 42168
+    proxy: proxy42168
+    type: mixed
+  - name: mixed42169
+    port: 42169
+    proxy: proxy42169
+    type: mixed
+  - name: mixed42170
+    port: 42170
+    proxy: proxy42170
+    type: mixed
+  - name: mixed42171
+    port: 42171
+    proxy: proxy42171
+    type: mixed
+  - name: mixed42172
+    port: 42172
+    proxy: proxy42172
+    type: mixed
+  - name: mixed42173
+    port: 42173
+    proxy: proxy42173
+    type: mixed
+  - name: mixed42174
+    port: 42174
+    proxy: proxy42174
+    type: mixed
+  - name: mixed42175
+    port: 42175
+    proxy: proxy42175
+    type: mixed
+  - name: mixed42176
+    port: 42176
+    proxy: proxy42176
+    type: mixed
+  - name: mixed42177
+    port: 42177
+    proxy: proxy42177
+    type: mixed
+  - name: mixed42178
+    port: 42178
+    proxy: proxy42178
+    type: mixed
+  - name: mixed42179
+    port: 42179
+    proxy: proxy42179
+    type: mixed
+  - name: mixed42180
+    port: 42180
+    proxy: proxy42180
+    type: mixed
+  - name: mixed42181
+    port: 42181
+    proxy: proxy42181
+    type: mixed
+  - name: mixed42182
+    port: 42182
+    proxy: proxy42182
+    type: mixed
+  - name: mixed42183
+    port: 42183
+    proxy: proxy42183
+    type: mixed
+  - name: mixed42184
+    port: 42184
+    proxy: proxy42184
+    type: mixed
+  - name: mixed42185
+    port: 42185
+    proxy: proxy42185
+    type: mixed
+  - name: mixed42186
+    port: 42186
+    proxy: proxy42186
+    type: mixed
+  - name: mixed42187
+    port: 42187
+    proxy: proxy42187
+    type: mixed
+  - name: mixed42188
+    port: 42188
+    proxy: proxy42188
+    type: mixed
+  - name: mixed42189
+    port: 42189
+    proxy: proxy42189
+    type: mixed
+  - name: mixed42190
+    port: 42190
+    proxy: proxy42190
+    type: mixed
+  - name: mixed42191
+    port: 42191
+    proxy: proxy42191
+    type: mixed
+  - name: mixed42192
+    port: 42192
+    proxy: proxy42192
+    type: mixed
+  - name: mixed42193
+    port: 42193
+    proxy: proxy42193
+    type: mixed
+  - name: mixed42194
+    port: 42194
+    proxy: proxy42194
+    type: mixed
+  - name: mixed42195
+    port: 42195
+    proxy: proxy42195
+    type: mixed
+  - name: mixed42196
+    port: 42196
+    proxy: proxy42196
+    type: mixed
+  - name: mixed42197
+    port: 42197
+    proxy: proxy42197
+    type: mixed
+  - name: mixed42198
+    port: 42198
+    proxy: proxy42198
+    type: mixed
+  - name: mixed42199
+    port: 42199
+    proxy: proxy42199
+    type: mixed
+  - name: mixed42200
+    port: 42200
+    proxy: proxy42200
+    type: mixed
+  - name: mixed42201
+    port: 42201
+    proxy: proxy42201
+    type: mixed
+  - name: mixed42202
+    port: 42202
+    proxy: proxy42202
+    type: mixed
+  - name: mixed42203
+    port: 42203
+    proxy: proxy42203
+    type: mixed
+  - name: mixed42204
+    port: 42204
+    proxy: proxy42204
+    type: mixed
+  - name: mixed42205
+    port: 42205
+    proxy: proxy42205
+    type: mixed
+  - name: mixed42206
+    port: 42206
+    proxy: proxy42206
+    type: mixed
+  - name: mixed42207
+    port: 42207
+    proxy: proxy42207
+    type: mixed
+  - name: mixed42208
+    port: 42208
+    proxy: proxy42208
+    type: mixed
+  - name: mixed42209
+    port: 42209
+    proxy: proxy42209
+    type: mixed
+  - name: mixed42210
+    port: 42210
+    proxy: proxy42210
+    type: mixed
+  - name: mixed42211
+    port: 42211
+    proxy: proxy42211
+    type: mixed
+  - name: mixed42212
+    port: 42212
+    proxy: proxy42212
+    type: mixed
+  - name: mixed42213
+    port: 42213
+    proxy: proxy42213
+    type: mixed
+  - name: mixed42214
+    port: 42214
+    proxy: proxy42214
+    type: mixed
+  - name: mixed42215
+    port: 42215
+    proxy: proxy42215
+    type: mixed
+  - name: mixed42216
+    port: 42216
+    proxy: proxy42216
+    type: mixed
+  - name: mixed42217
+    port: 42217
+    proxy: proxy42217
+    type: mixed
+  - name: mixed42218
+    port: 42218
+    proxy: proxy42218
+    type: mixed
+  - name: mixed42219
+    port: 42219
+    proxy: proxy42219
+    type: mixed
+  - name: mixed42220
+    port: 42220
+    proxy: proxy42220
+    type: mixed
+  - name: mixed42221
+    port: 42221
+    proxy: proxy42221
+    type: mixed
+  - name: mixed42222
+    port: 42222
+    proxy: proxy42222
+    type: mixed
+  - name: mixed42223
+    port: 42223
+    proxy: proxy42223
+    type: mixed
+  - name: mixed42224
+    port: 42224
+    proxy: proxy42224
+    type: mixed
+  - name: mixed42225
+    port: 42225
+    proxy: proxy42225
+    type: mixed
+  - name: mixed42226
+    port: 42226
+    proxy: proxy42226
+    type: mixed
+  - name: mixed42227
+    port: 42227
+    proxy: proxy42227
+    type: mixed
+  - name: mixed42228
+    port: 42228
+    proxy: proxy42228
+    type: mixed
+  - name: mixed42229
+    port: 42229
+    proxy: proxy42229
+    type: mixed
+  - name: mixed42230
+    port: 42230
+    proxy: proxy42230
+    type: mixed
+  - name: mixed42231
+    port: 42231
+    proxy: proxy42231
+    type: mixed
+  - name: mixed42232
+    port: 42232
+    proxy: proxy42232
+    type: mixed
+  - name: mixed42233
+    port: 42233
+    proxy: proxy42233
+    type: mixed
+  - name: mixed42234
+    port: 42234
+    proxy: proxy42234
+    type: mixed
+  - name: mixed42235
+    port: 42235
+    proxy: proxy42235
+    type: mixed
+  - name: mixed42236
+    port: 42236
+    proxy: proxy42236
+    type: mixed
+  - name: mixed42237
+    port: 42237
+    proxy: proxy42237
+    type: mixed
+  - name: mixed42238
+    port: 42238
+    proxy: proxy42238
+    type: mixed
+  - name: mixed42239
+    port: 42239
+    proxy: proxy42239
+    type: mixed
+  - name: mixed42240
+    port: 42240
+    proxy: proxy42240
+    type: mixed
+  - name: mixed42241
+    port: 42241
+    proxy: proxy42241
+    type: mixed
+  - name: mixed42242
+    port: 42242
+    proxy: proxy42242
+    type: mixed
+  - name: mixed42243
+    port: 42243
+    proxy: proxy42243
+    type: mixed
+  - name: mixed42244
+    port: 42244
+    proxy: proxy42244
+    type: mixed
+  - name: mixed42245
+    port: 42245
+    proxy: proxy42245
+    type: mixed
+  - name: mixed42246
+    port: 42246
+    proxy: proxy42246
+    type: mixed
+  - name: mixed42247
+    port: 42247
+    proxy: proxy42247
+    type: mixed
+  - name: mixed42248
+    port: 42248
+    proxy: proxy42248
+    type: mixed
+  - name: mixed42249
+    port: 42249
+    proxy: proxy42249
+    type: mixed
+  - name: mixed42250
+    port: 42250
+    proxy: proxy42250
+    type: mixed
+  - name: mixed42251
+    port: 42251
+    proxy: proxy42251
+    type: mixed
+  - name: mixed42252
+    port: 42252
+    proxy: proxy42252
+    type: mixed
+  - name: mixed42253
+    port: 42253
+    proxy: proxy42253
+    type: mixed
+  - name: mixed42254
+    port: 42254
+    proxy: proxy42254
+    type: mixed
+  - name: mixed42255
+    port: 42255
+    proxy: proxy42255
+    type: mixed
+  - name: mixed42256
+    port: 42256
+    proxy: proxy42256
+    type: mixed
+  - name: mixed42257
+    port: 42257
+    proxy: proxy42257
+    type: mixed
+  - name: mixed42258
+    port: 42258
+    proxy: proxy42258
+    type: mixed
+  - name: mixed42259
+    port: 42259
+    proxy: proxy42259
+    type: mixed
+  - name: mixed42260
+    port: 42260
+    proxy: proxy42260
+    type: mixed
+  - name: mixed42261
+    port: 42261
+    proxy: proxy42261
+    type: mixed
+  - name: mixed42262
+    port: 42262
+    proxy: proxy42262
+    type: mixed
+  - name: mixed42263
+    port: 42263
+    proxy: proxy42263
+    type: mixed
+  - name: mixed42264
+    port: 42264
+    proxy: proxy42264
+    type: mixed
+  - name: mixed42265
+    port: 42265
+    proxy: proxy42265
+    type: mixed
+  - name: mixed42266
+    port: 42266
+    proxy: proxy42266
+    type: mixed
+  - name: mixed42267
+    port: 42267
+    proxy: proxy42267
+    type: mixed
+  - name: mixed42268
+    port: 42268
+    proxy: proxy42268
+    type: mixed
+  - name: mixed42269
+    port: 42269
+    proxy: proxy42269
+    type: mixed
+  - name: mixed42270
+    port: 42270
+    proxy: proxy42270
+    type: mixed
+  - name: mixed42271
+    port: 42271
+    proxy: proxy42271
+    type: mixed
+  - name: mixed42272
+    port: 42272
+    proxy: proxy42272
+    type: mixed
+  - name: mixed42273
+    port: 42273
+    proxy: proxy42273
+    type: mixed
+  - name: mixed42274
+    port: 42274
+    proxy: proxy42274
+    type: mixed
+  - name: mixed42275
+    port: 42275
+    proxy: proxy42275
+    type: mixed
+  - name: mixed42276
+    port: 42276
+    proxy: proxy42276
+    type: mixed
+  - name: mixed42277
+    port: 42277
+    proxy: proxy42277
+    type: mixed
+  - name: mixed42278
+    port: 42278
+    proxy: proxy42278
+    type: mixed
+  - name: mixed42279
+    port: 42279
+    proxy: proxy42279
+    type: mixed
+  - name: mixed42280
+    port: 42280
+    proxy: proxy42280
+    type: mixed
+  - name: mixed42281
+    port: 42281
+    proxy: proxy42281
+    type: mixed
+  - name: mixed42282
+    port: 42282
+    proxy: proxy42282
+    type: mixed
+  - name: mixed42283
+    port: 42283
+    proxy: proxy42283
+    type: mixed
+  - name: mixed42284
+    port: 42284
+    proxy: proxy42284
+    type: mixed
+  - name: mixed42285
+    port: 42285
+    proxy: proxy42285
+    type: mixed
+  - name: mixed42286
+    port: 42286
+    proxy: proxy42286
+    type: mixed
+  - name: mixed42287
+    port: 42287
+    proxy: proxy42287
+    type: mixed
+  - name: mixed42288
+    port: 42288
+    proxy: proxy42288
+    type: mixed
+  - name: mixed42289
+    port: 42289
+    proxy: proxy42289
+    type: mixed
+  - name: mixed42290
+    port: 42290
+    proxy: proxy42290
+    type: mixed
+  - name: mixed42291
+    port: 42291
+    proxy: proxy42291
+    type: mixed
+  - name: mixed42292
+    port: 42292
+    proxy: proxy42292
+    type: mixed
+  - name: mixed42293
+    port: 42293
+    proxy: proxy42293
+    type: mixed
+  - name: mixed42294
+    port: 42294
+    proxy: proxy42294
+    type: mixed
+  - name: mixed42295
+    port: 42295
+    proxy: proxy42295
+    type: mixed
+  - name: mixed42296
+    port: 42296
+    proxy: proxy42296
+    type: mixed
+  - name: mixed42297
+    port: 42297
+    proxy: proxy42297
+    type: mixed
+  - name: mixed42298
+    port: 42298
+    proxy: proxy42298
+    type: mixed
+  - name: mixed42299
+    port: 42299
+    proxy: proxy42299
+    type: mixed
+  - name: mixed42300
+    port: 42300
+    proxy: proxy42300
+    type: mixed
+  - name: mixed42301
+    port: 42301
+    proxy: proxy42301
+    type: mixed
+  - name: mixed42302
+    port: 42302
+    proxy: proxy42302
+    type: mixed
+  - name: mixed42303
+    port: 42303
+    proxy: proxy42303
+    type: mixed
+  - name: mixed42304
+    port: 42304
+    proxy: proxy42304
+    type: mixed
+  - name: mixed42305
+    port: 42305
+    proxy: proxy42305
+    type: mixed
+  - name: mixed42306
+    port: 42306
+    proxy: proxy42306
+    type: mixed
+  - name: mixed42307
+    port: 42307
+    proxy: proxy42307
+    type: mixed
+  - name: mixed42308
+    port: 42308
+    proxy: proxy42308
+    type: mixed
+  - name: mixed42309
+    port: 42309
+    proxy: proxy42309
+    type: mixed
+  - name: mixed42310
+    port: 42310
+    proxy: proxy42310
+    type: mixed
+  - name: mixed42311
+    port: 42311
+    proxy: proxy42311
+    type: mixed
+  - name: mixed42312
+    port: 42312
+    proxy: proxy42312
+    type: mixed
+  - name: mixed42313
+    port: 42313
+    proxy: proxy42313
+    type: mixed
+  - name: mixed42314
+    port: 42314
+    proxy: proxy42314
+    type: mixed
+  - name: mixed42315
+    port: 42315
+    proxy: proxy42315
+    type: mixed
+  - name: mixed42316
+    port: 42316
+    proxy: proxy42316
+    type: mixed
+  - name: mixed42317
+    port: 42317
+    proxy: proxy42317
+    type: mixed
+  - name: mixed42318
+    port: 42318
+    proxy: proxy42318
+    type: mixed
+  - name: mixed42319
+    port: 42319
+    proxy: proxy42319
+    type: mixed
+  - name: mixed42320
+    port: 42320
+    proxy: proxy42320
+    type: mixed
+  - name: mixed42321
+    port: 42321
+    proxy: proxy42321
+    type: mixed
+  - name: mixed42322
+    port: 42322
+    proxy: proxy42322
+    type: mixed
+  - name: mixed42323
+    port: 42323
+    proxy: proxy42323
+    type: mixed
+  - name: mixed42324
+    port: 42324
+    proxy: proxy42324
+    type: mixed
+  - name: mixed42325
+    port: 42325
+    proxy: proxy42325
+    type: mixed
+  - name: mixed42326
+    port: 42326
+    proxy: proxy42326
+    type: mixed
+  - name: mixed42327
+    port: 42327
+    proxy: proxy42327
+    type: mixed
+  - name: mixed42328
+    port: 42328
+    proxy: proxy42328
+    type: mixed
+  - name: mixed42329
+    port: 42329
+    proxy: proxy42329
+    type: mixed
+  - name: mixed42330
+    port: 42330
+    proxy: proxy42330
+    type: mixed
+  - name: mixed42331
+    port: 42331
+    proxy: proxy42331
+    type: mixed
+  - name: mixed42332
+    port: 42332
+    proxy: proxy42332
+    type: mixed
+  - name: mixed42333
+    port: 42333
+    proxy: proxy42333
+    type: mixed
+  - name: mixed42334
+    port: 42334
+    proxy: proxy42334
+    type: mixed
+  - name: mixed42335
+    port: 42335
+    proxy: proxy42335
+    type: mixed
+  - name: mixed42336
+    port: 42336
+    proxy: proxy42336
+    type: mixed
+  - name: mixed42337
+    port: 42337
+    proxy: proxy42337
+    type: mixed
+  - name: mixed42338
+    port: 42338
+    proxy: proxy42338
+    type: mixed
+  - name: mixed42339
+    port: 42339
+    proxy: proxy42339
+    type: mixed
+  - name: mixed42340
+    port: 42340
+    proxy: proxy42340
+    type: mixed
+  - name: mixed42341
+    port: 42341
+    proxy: proxy42341
+    type: mixed
+  - name: mixed42342
+    port: 42342
+    proxy: proxy42342
+    type: mixed
+  - name: mixed42343
+    port: 42343
+    proxy: proxy42343
+    type: mixed
+  - name: mixed42344
+    port: 42344
+    proxy: proxy42344
+    type: mixed
+  - name: mixed42345
+    port: 42345
+    proxy: proxy42345
+    type: mixed
+  - name: mixed42346
+    port: 42346
+    proxy: proxy42346
+    type: mixed
+  - name: mixed42347
+    port: 42347
+    proxy: proxy42347
+    type: mixed
+  - name: mixed42348
+    port: 42348
+    proxy: proxy42348
+    type: mixed
+  - name: mixed42349
+    port: 42349
+    proxy: proxy42349
+    type: mixed
+  - name: mixed42350
+    port: 42350
+    proxy: proxy42350
+    type: mixed
+  - name: mixed42351
+    port: 42351
+    proxy: proxy42351
+    type: mixed
+  - name: mixed42352
+    port: 42352
+    proxy: proxy42352
+    type: mixed
+  - name: mixed42353
+    port: 42353
+    proxy: proxy42353
+    type: mixed
+  - name: mixed42354
+    port: 42354
+    proxy: proxy42354
+    type: mixed
+  - name: mixed42355
+    port: 42355
+    proxy: proxy42355
+    type: mixed
+  - name: mixed42356
+    port: 42356
+    proxy: proxy42356
+    type: mixed
+  - name: mixed42357
+    port: 42357
+    proxy: proxy42357
+    type: mixed
+  - name: mixed42358
+    port: 42358
+    proxy: proxy42358
+    type: mixed
+  - name: mixed42359
+    port: 42359
+    proxy: proxy42359
+    type: mixed
+  - name: mixed42360
+    port: 42360
+    proxy: proxy42360
+    type: mixed
+  - name: mixed42361
+    port: 42361
+    proxy: proxy42361
+    type: mixed
+  - name: mixed42362
+    port: 42362
+    proxy: proxy42362
+    type: mixed
+  - name: mixed42363
+    port: 42363
+    proxy: proxy42363
+    type: mixed
+  - name: mixed42364
+    port: 42364
+    proxy: proxy42364
+    type: mixed
+  - name: mixed42365
+    port: 42365
+    proxy: proxy42365
+    type: mixed
+  - name: mixed42366
+    port: 42366
+    proxy: proxy42366
+    type: mixed
+  - name: mixed42367
+    port: 42367
+    proxy: proxy42367
+    type: mixed
+  - name: mixed42368
+    port: 42368
+    proxy: proxy42368
+    type: mixed
+  - name: mixed42369
+    port: 42369
+    proxy: proxy42369
+    type: mixed
+  - name: mixed42370
+    port: 42370
+    proxy: proxy42370
+    type: mixed
+  - name: mixed42371
+    port: 42371
+    proxy: proxy42371
+    type: mixed
+  - name: mixed42372
+    port: 42372
+    proxy: proxy42372
+    type: mixed
+  - name: mixed42373
+    port: 42373
+    proxy: proxy42373
+    type: mixed
+  - name: mixed42374
+    port: 42374
+    proxy: proxy42374
+    type: mixed
+  - name: mixed42375
+    port: 42375
+    proxy: proxy42375
+    type: mixed
+  - name: mixed42376
+    port: 42376
+    proxy: proxy42376
+    type: mixed
+  - name: mixed42377
+    port: 42377
+    proxy: proxy42377
+    type: mixed
+  - name: mixed42378
+    port: 42378
+    proxy: proxy42378
+    type: mixed
+  - name: mixed42379
+    port: 42379
+    proxy: proxy42379
+    type: mixed
+  - name: mixed42380
+    port: 42380
+    proxy: proxy42380
+    type: mixed
+  - name: mixed42381
+    port: 42381
+    proxy: proxy42381
+    type: mixed
+  - name: mixed42382
+    port: 42382
+    proxy: proxy42382
+    type: mixed
+  - name: mixed42383
+    port: 42383
+    proxy: proxy42383
+    type: mixed
+  - name: mixed42384
+    port: 42384
+    proxy: proxy42384
+    type: mixed
+  - name: mixed42385
+    port: 42385
+    proxy: proxy42385
+    type: mixed
+  - name: mixed42386
+    port: 42386
+    proxy: proxy42386
+    type: mixed
+  - name: mixed42387
+    port: 42387
+    proxy: proxy42387
+    type: mixed
+  - name: mixed42388
+    port: 42388
+    proxy: proxy42388
+    type: mixed
+  - name: mixed42389
+    port: 42389
+    proxy: proxy42389
+    type: mixed
+  - name: mixed42390
+    port: 42390
+    proxy: proxy42390
+    type: mixed
+  - name: mixed42391
+    port: 42391
+    proxy: proxy42391
+    type: mixed
+  - name: mixed42392
+    port: 42392
+    proxy: proxy42392
+    type: mixed
+  - name: mixed42393
+    port: 42393
+    proxy: proxy42393
+    type: mixed
+  - name: mixed42394
+    port: 42394
+    proxy: proxy42394
+    type: mixed
+  - name: mixed42395
+    port: 42395
+    proxy: proxy42395
+    type: mixed
+  - name: mixed42396
+    port: 42396
+    proxy: proxy42396
+    type: mixed
+  - name: mixed42397
+    port: 42397
+    proxy: proxy42397
+    type: mixed
+  - name: mixed42398
+    port: 42398
+    proxy: proxy42398
+    type: mixed
+  - name: mixed42399
+    port: 42399
+    proxy: proxy42399
+    type: mixed
+  - name: mixed42400
+    port: 42400
+    proxy: proxy42400
+    type: mixed
+  - name: mixed42401
+    port: 42401
+    proxy: proxy42401
+    type: mixed
+  - name: mixed42402
+    port: 42402
+    proxy: proxy42402
+    type: mixed
+  - name: mixed42403
+    port: 42403
+    proxy: proxy42403
+    type: mixed
+  - name: mixed42404
+    port: 42404
+    proxy: proxy42404
+    type: mixed
+  - name: mixed42405
+    port: 42405
+    proxy: proxy42405
+    type: mixed
+  - name: mixed42406
+    port: 42406
+    proxy: proxy42406
+    type: mixed
+  - name: mixed42407
+    port: 42407
+    proxy: proxy42407
+    type: mixed
+  - name: mixed42408
+    port: 42408
+    proxy: proxy42408
+    type: mixed
+  - name: mixed42409
+    port: 42409
+    proxy: proxy42409
+    type: mixed
+  - name: mixed42410
+    port: 42410
+    proxy: proxy42410
+    type: mixed
+  - name: mixed42411
+    port: 42411
+    proxy: proxy42411
+    type: mixed
+  - name: mixed42412
+    port: 42412
+    proxy: proxy42412
+    type: mixed
+  - name: mixed42413
+    port: 42413
+    proxy: proxy42413
+    type: mixed
+  - name: mixed42414
+    port: 42414
+    proxy: proxy42414
+    type: mixed
+  - name: mixed42415
+    port: 42415
+    proxy: proxy42415
+    type: mixed
+  - name: mixed42416
+    port: 42416
+    proxy: proxy42416
+    type: mixed
+  - name: mixed42417
+    port: 42417
+    proxy: proxy42417
+    type: mixed
+  - name: mixed42418
+    port: 42418
+    proxy: proxy42418
+    type: mixed
+  - name: mixed42419
+    port: 42419
+    proxy: proxy42419
+    type: mixed
+  - name: mixed42420
+    port: 42420
+    proxy: proxy42420
+    type: mixed
+  - name: mixed42421
+    port: 42421
+    proxy: proxy42421
+    type: mixed
+  - name: mixed42422
+    port: 42422
+    proxy: proxy42422
+    type: mixed
+  - name: mixed42423
+    port: 42423
+    proxy: proxy42423
+    type: mixed
+  - name: mixed42424
+    port: 42424
+    proxy: proxy42424
+    type: mixed
+  - name: mixed42425
+    port: 42425
+    proxy: proxy42425
+    type: mixed
+  - name: mixed42426
+    port: 42426
+    proxy: proxy42426
+    type: mixed
+  - name: mixed42427
+    port: 42427
+    proxy: proxy42427
+    type: mixed
+  - name: mixed42428
+    port: 42428
+    proxy: proxy42428
+    type: mixed
+  - name: mixed42429
+    port: 42429
+    proxy: proxy42429
+    type: mixed
+  - name: mixed42430
+    port: 42430
+    proxy: proxy42430
+    type: mixed
+  - name: mixed42431
+    port: 42431
+    proxy: proxy42431
+    type: mixed
+  - name: mixed42432
+    port: 42432
+    proxy: proxy42432
+    type: mixed
+  - name: mixed42433
+    port: 42433
+    proxy: proxy42433
+    type: mixed
+  - name: mixed42434
+    port: 42434
+    proxy: proxy42434
+    type: mixed
+  - name: mixed42435
+    port: 42435
+    proxy: proxy42435
+    type: mixed
+  - name: mixed42436
+    port: 42436
+    proxy: proxy42436
+    type: mixed
+  - name: mixed42437
+    port: 42437
+    proxy: proxy42437
+    type: mixed
+  - name: mixed42438
+    port: 42438
+    proxy: proxy42438
+    type: mixed
+  - name: mixed42439
+    port: 42439
+    proxy: proxy42439
+    type: mixed
+  - name: mixed42440
+    port: 42440
+    proxy: proxy42440
+    type: mixed
+  - name: mixed42441
+    port: 42441
+    proxy: proxy42441
+    type: mixed
+  - name: mixed42442
+    port: 42442
+    proxy: proxy42442
+    type: mixed
+  - name: mixed42443
+    port: 42443
+    proxy: proxy42443
+    type: mixed
+  - name: mixed42444
+    port: 42444
+    proxy: proxy42444
+    type: mixed
+  - name: mixed42445
+    port: 42445
+    proxy: proxy42445
+    type: mixed
+  - name: mixed42446
+    port: 42446
+    proxy: proxy42446
+    type: mixed
+  - name: mixed42447
+    port: 42447
+    proxy: proxy42447
+    type: mixed
+  - name: mixed42448
+    port: 42448
+    proxy: proxy42448
+    type: mixed
+  - name: mixed42449
+    port: 42449
+    proxy: proxy42449
+    type: mixed
+  - name: mixed42450
+    port: 42450
+    proxy: proxy42450
+    type: mixed
+  - name: mixed42451
+    port: 42451
+    proxy: proxy42451
+    type: mixed
+  - name: mixed42452
+    port: 42452
+    proxy: proxy42452
+    type: mixed
+  - name: mixed42453
+    port: 42453
+    proxy: proxy42453
+    type: mixed
+  - name: mixed42454
+    port: 42454
+    proxy: proxy42454
+    type: mixed
+  - name: mixed42455
+    port: 42455
+    proxy: proxy42455
+    type: mixed
+  - name: mixed42456
+    port: 42456
+    proxy: proxy42456
+    type: mixed
+  - name: mixed42457
+    port: 42457
+    proxy: proxy42457
+    type: mixed
+  - name: mixed42458
+    port: 42458
+    proxy: proxy42458
+    type: mixed
+  - name: mixed42459
+    port: 42459
+    proxy: proxy42459
+    type: mixed
+  - name: mixed42460
+    port: 42460
+    proxy: proxy42460
+    type: mixed
+  - name: mixed42461
+    port: 42461
+    proxy: proxy42461
+    type: mixed
+  - name: mixed42462
+    port: 42462
+    proxy: proxy42462
+    type: mixed
+  - name: mixed42463
+    port: 42463
+    proxy: proxy42463
+    type: mixed
+  - name: mixed42464
+    port: 42464
+    proxy: proxy42464
+    type: mixed
+  - name: mixed42465
+    port: 42465
+    proxy: proxy42465
+    type: mixed
+  - name: mixed42466
+    port: 42466
+    proxy: proxy42466
+    type: mixed
+  - name: mixed42467
+    port: 42467
+    proxy: proxy42467
+    type: mixed
+  - name: mixed42468
+    port: 42468
+    proxy: proxy42468
+    type: mixed
+  - name: mixed42469
+    port: 42469
+    proxy: proxy42469
+    type: mixed
+  - name: mixed42470
+    port: 42470
+    proxy: proxy42470
+    type: mixed
+  - name: mixed42471
+    port: 42471
+    proxy: proxy42471
+    type: mixed
+  - name: mixed42472
+    port: 42472
+    proxy: proxy42472
+    type: mixed
+  - name: mixed42473
+    port: 42473
+    proxy: proxy42473
+    type: mixed
+  - name: mixed42474
+    port: 42474
+    proxy: proxy42474
+    type: mixed
+  - name: mixed42475
+    port: 42475
+    proxy: proxy42475
+    type: mixed
+  - name: mixed42476
+    port: 42476
+    proxy: proxy42476
+    type: mixed
+  - name: mixed42477
+    port: 42477
+    proxy: proxy42477
+    type: mixed
+  - name: mixed42478
+    port: 42478
+    proxy: proxy42478
+    type: mixed
+  - name: mixed42479
+    port: 42479
+    proxy: proxy42479
+    type: mixed
+  - name: mixed42480
+    port: 42480
+    proxy: proxy42480
+    type: mixed
+  - name: mixed42481
+    port: 42481
+    proxy: proxy42481
+    type: mixed
+  - name: mixed42482
+    port: 42482
+    proxy: proxy42482
+    type: mixed
+  - name: mixed42483
+    port: 42483
+    proxy: proxy42483
+    type: mixed
+  - name: mixed42484
+    port: 42484
+    proxy: proxy42484
+    type: mixed
+  - name: mixed42485
+    port: 42485
+    proxy: proxy42485
+    type: mixed
+  - name: mixed42486
+    port: 42486
+    proxy: proxy42486
+    type: mixed
+  - name: mixed42487
+    port: 42487
+    proxy: proxy42487
+    type: mixed
+  - name: mixed42488
+    port: 42488
+    proxy: proxy42488
+    type: mixed
+  - name: mixed42489
+    port: 42489
+    proxy: proxy42489
+    type: mixed
+  - name: mixed42490
+    port: 42490
+    proxy: proxy42490
+    type: mixed
+  - name: mixed42491
+    port: 42491
+    proxy: proxy42491
+    type: mixed
+  - name: mixed42492
+    port: 42492
+    proxy: proxy42492
+    type: mixed
+  - name: mixed42493
+    port: 42493
+    proxy: proxy42493
+    type: mixed
+  - name: mixed42494
+    port: 42494
+    proxy: proxy42494
+    type: mixed
+  - name: mixed42495
+    port: 42495
+    proxy: proxy42495
+    type: mixed
+  - name: mixed42496
+    port: 42496
+    proxy: proxy42496
+    type: mixed
+  - name: mixed42497
+    port: 42497
+    proxy: proxy42497
+    type: mixed
+  - name: mixed42498
+    port: 42498
+    proxy: proxy42498
+    type: mixed
+  - name: mixed42499
+    port: 42499
+    proxy: proxy42499
+    type: mixed
+proxies:
+  - name: proxy42000
+    type: vmess
+    server: 74.48.19.232
+    port: 20000
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42001
+    type: vmess
+    server: 74.48.19.232
+    port: 20001
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42002
+    type: vmess
+    server: 74.48.19.232
+    port: 20002
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42003
+    type: vmess
+    server: 74.48.19.232
+    port: 20003
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42004
+    type: vmess
+    server: 74.48.19.232
+    port: 20004
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42005
+    type: vmess
+    server: 74.48.19.232
+    port: 20005
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42006
+    type: vmess
+    server: 74.48.19.232
+    port: 20006
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42007
+    type: vmess
+    server: 74.48.19.232
+    port: 20007
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42008
+    type: vmess
+    server: 74.48.19.232
+    port: 20008
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42009
+    type: vmess
+    server: 74.48.19.232
+    port: 20009
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42010
+    type: vmess
+    server: 74.48.19.232
+    port: 20010
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42011
+    type: vmess
+    server: 74.48.19.232
+    port: 20011
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42012
+    type: vmess
+    server: 74.48.19.232
+    port: 20012
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42013
+    type: vmess
+    server: 74.48.19.232
+    port: 20013
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42014
+    type: vmess
+    server: 74.48.19.232
+    port: 20014
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42015
+    type: vmess
+    server: 74.48.19.232
+    port: 20015
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42016
+    type: vmess
+    server: 74.48.19.232
+    port: 20016
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42017
+    type: vmess
+    server: 74.48.19.232
+    port: 20017
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42018
+    type: vmess
+    server: 74.48.19.232
+    port: 20018
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42019
+    type: vmess
+    server: 74.48.19.232
+    port: 20019
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42020
+    type: vmess
+    server: 74.48.19.232
+    port: 20020
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42021
+    type: vmess
+    server: 74.48.19.232
+    port: 20021
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42022
+    type: vmess
+    server: 74.48.19.232
+    port: 20022
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42023
+    type: vmess
+    server: 74.48.19.232
+    port: 20023
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42024
+    type: vmess
+    server: 74.48.19.232
+    port: 20024
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42025
+    type: vmess
+    server: 74.48.19.232
+    port: 20025
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42026
+    type: vmess
+    server: 74.48.19.232
+    port: 20026
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42027
+    type: vmess
+    server: 74.48.19.232
+    port: 20027
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42028
+    type: vmess
+    server: 74.48.19.232
+    port: 20028
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42029
+    type: vmess
+    server: 74.48.19.232
+    port: 20029
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42030
+    type: vmess
+    server: 74.48.19.232
+    port: 20030
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42031
+    type: vmess
+    server: 74.48.19.232
+    port: 20031
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42032
+    type: vmess
+    server: 74.48.19.232
+    port: 20032
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42033
+    type: vmess
+    server: 74.48.19.232
+    port: 20033
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42034
+    type: vmess
+    server: 74.48.19.232
+    port: 20034
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42035
+    type: vmess
+    server: 74.48.19.232
+    port: 20035
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42036
+    type: vmess
+    server: 74.48.19.232
+    port: 20036
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42037
+    type: vmess
+    server: 74.48.19.232
+    port: 20037
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42038
+    type: vmess
+    server: 74.48.19.232
+    port: 20038
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42039
+    type: vmess
+    server: 74.48.19.232
+    port: 20039
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42040
+    type: vmess
+    server: 74.48.19.232
+    port: 20040
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42041
+    type: vmess
+    server: 74.48.19.232
+    port: 20041
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42042
+    type: vmess
+    server: 74.48.19.232
+    port: 20042
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42043
+    type: vmess
+    server: 74.48.19.232
+    port: 20043
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42044
+    type: vmess
+    server: 74.48.19.232
+    port: 20044
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42045
+    type: vmess
+    server: 74.48.19.232
+    port: 20045
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42046
+    type: vmess
+    server: 74.48.19.232
+    port: 20046
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42047
+    type: vmess
+    server: 74.48.19.232
+    port: 20047
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42048
+    type: vmess
+    server: 74.48.19.232
+    port: 20048
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42049
+    type: vmess
+    server: 74.48.19.232
+    port: 20049
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42050
+    type: vmess
+    server: 74.48.19.232
+    port: 20050
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42051
+    type: vmess
+    server: 74.48.19.232
+    port: 20051
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42052
+    type: vmess
+    server: 74.48.19.232
+    port: 20052
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42053
+    type: vmess
+    server: 74.48.19.232
+    port: 20053
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42054
+    type: vmess
+    server: 74.48.19.232
+    port: 20054
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42055
+    type: vmess
+    server: 74.48.19.232
+    port: 20055
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42056
+    type: vmess
+    server: 74.48.19.232
+    port: 20056
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42057
+    type: vmess
+    server: 74.48.19.232
+    port: 20057
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42058
+    type: vmess
+    server: 74.48.19.232
+    port: 20058
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42059
+    type: vmess
+    server: 74.48.19.232
+    port: 20059
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42060
+    type: vmess
+    server: 74.48.19.232
+    port: 20060
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42061
+    type: vmess
+    server: 74.48.19.232
+    port: 20061
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42062
+    type: vmess
+    server: 74.48.19.232
+    port: 20062
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42063
+    type: vmess
+    server: 74.48.19.232
+    port: 20063
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42064
+    type: vmess
+    server: 74.48.19.232
+    port: 20064
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42065
+    type: vmess
+    server: 74.48.19.232
+    port: 20065
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42066
+    type: vmess
+    server: 74.48.19.232
+    port: 20066
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42067
+    type: vmess
+    server: 74.48.19.232
+    port: 20067
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42068
+    type: vmess
+    server: 74.48.19.232
+    port: 20068
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42069
+    type: vmess
+    server: 74.48.19.232
+    port: 20069
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42070
+    type: vmess
+    server: 74.48.19.232
+    port: 20070
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42071
+    type: vmess
+    server: 74.48.19.232
+    port: 20071
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42072
+    type: vmess
+    server: 74.48.19.232
+    port: 20072
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42073
+    type: vmess
+    server: 74.48.19.232
+    port: 20073
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42074
+    type: vmess
+    server: 74.48.19.232
+    port: 20074
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42075
+    type: vmess
+    server: 74.48.19.232
+    port: 20075
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42076
+    type: vmess
+    server: 74.48.19.232
+    port: 20076
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42077
+    type: vmess
+    server: 74.48.19.232
+    port: 20077
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42078
+    type: vmess
+    server: 74.48.19.232
+    port: 20078
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42079
+    type: vmess
+    server: 74.48.19.232
+    port: 20079
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42080
+    type: vmess
+    server: 74.48.19.232
+    port: 20080
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42081
+    type: vmess
+    server: 74.48.19.232
+    port: 20081
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42082
+    type: vmess
+    server: 74.48.19.232
+    port: 20082
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42083
+    type: vmess
+    server: 74.48.19.232
+    port: 20083
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42084
+    type: vmess
+    server: 74.48.19.232
+    port: 20084
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42085
+    type: vmess
+    server: 74.48.19.232
+    port: 20085
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42086
+    type: vmess
+    server: 74.48.19.232
+    port: 20086
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42087
+    type: vmess
+    server: 74.48.19.232
+    port: 20087
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42088
+    type: vmess
+    server: 74.48.19.232
+    port: 20088
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42089
+    type: vmess
+    server: 74.48.19.232
+    port: 20089
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42090
+    type: vmess
+    server: 74.48.19.232
+    port: 20090
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42091
+    type: vmess
+    server: 74.48.19.232
+    port: 20091
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42092
+    type: vmess
+    server: 74.48.19.232
+    port: 20092
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42093
+    type: vmess
+    server: 74.48.19.232
+    port: 20093
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42094
+    type: vmess
+    server: 74.48.19.232
+    port: 20094
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42095
+    type: vmess
+    server: 74.48.19.232
+    port: 20095
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42096
+    type: vmess
+    server: 74.48.19.232
+    port: 20096
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42097
+    type: vmess
+    server: 74.48.19.232
+    port: 20097
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42098
+    type: vmess
+    server: 74.48.19.232
+    port: 20098
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42099
+    type: vmess
+    server: 74.48.19.232
+    port: 20099
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42100
+    type: vmess
+    server: 74.48.19.232
+    port: 20100
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42101
+    type: vmess
+    server: 74.48.19.232
+    port: 20101
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42102
+    type: vmess
+    server: 74.48.19.232
+    port: 20102
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42103
+    type: vmess
+    server: 74.48.19.232
+    port: 20103
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42104
+    type: vmess
+    server: 74.48.19.232
+    port: 20104
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42105
+    type: vmess
+    server: 74.48.19.232
+    port: 20105
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42106
+    type: vmess
+    server: 74.48.19.232
+    port: 20106
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42107
+    type: vmess
+    server: 74.48.19.232
+    port: 20107
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42108
+    type: vmess
+    server: 74.48.19.232
+    port: 20108
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42109
+    type: vmess
+    server: 74.48.19.232
+    port: 20109
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42110
+    type: vmess
+    server: 74.48.19.232
+    port: 20110
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42111
+    type: vmess
+    server: 74.48.19.232
+    port: 20111
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42112
+    type: vmess
+    server: 74.48.19.232
+    port: 20112
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42113
+    type: vmess
+    server: 74.48.19.232
+    port: 20113
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42114
+    type: vmess
+    server: 74.48.19.232
+    port: 20114
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42115
+    type: vmess
+    server: 74.48.19.232
+    port: 20115
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42116
+    type: vmess
+    server: 74.48.19.232
+    port: 20116
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42117
+    type: vmess
+    server: 74.48.19.232
+    port: 20117
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42118
+    type: vmess
+    server: 74.48.19.232
+    port: 20118
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42119
+    type: vmess
+    server: 74.48.19.232
+    port: 20119
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42120
+    type: vmess
+    server: 74.48.19.232
+    port: 20120
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42121
+    type: vmess
+    server: 74.48.19.232
+    port: 20121
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42122
+    type: vmess
+    server: 74.48.19.232
+    port: 20122
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42123
+    type: vmess
+    server: 74.48.19.232
+    port: 20123
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42124
+    type: vmess
+    server: 74.48.19.232
+    port: 20124
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42125
+    type: vmess
+    server: 74.48.19.232
+    port: 20125
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42126
+    type: vmess
+    server: 74.48.19.232
+    port: 20126
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42127
+    type: vmess
+    server: 74.48.19.232
+    port: 20127
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42128
+    type: vmess
+    server: 74.48.19.232
+    port: 20128
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42129
+    type: vmess
+    server: 74.48.19.232
+    port: 20129
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42130
+    type: vmess
+    server: 74.48.19.232
+    port: 20130
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42131
+    type: vmess
+    server: 74.48.19.232
+    port: 20131
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42132
+    type: vmess
+    server: 74.48.19.232
+    port: 20132
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42133
+    type: vmess
+    server: 74.48.19.232
+    port: 20133
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42134
+    type: vmess
+    server: 74.48.19.232
+    port: 20134
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42135
+    type: vmess
+    server: 74.48.19.232
+    port: 20135
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42136
+    type: vmess
+    server: 74.48.19.232
+    port: 20136
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42137
+    type: vmess
+    server: 74.48.19.232
+    port: 20137
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42138
+    type: vmess
+    server: 74.48.19.232
+    port: 20138
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42139
+    type: vmess
+    server: 74.48.19.232
+    port: 20139
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42140
+    type: vmess
+    server: 74.48.19.232
+    port: 20140
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42141
+    type: vmess
+    server: 74.48.19.232
+    port: 20141
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42142
+    type: vmess
+    server: 74.48.19.232
+    port: 20142
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42143
+    type: vmess
+    server: 74.48.19.232
+    port: 20143
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42144
+    type: vmess
+    server: 74.48.19.232
+    port: 20144
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42145
+    type: vmess
+    server: 74.48.19.232
+    port: 20145
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42146
+    type: vmess
+    server: 74.48.19.232
+    port: 20146
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42147
+    type: vmess
+    server: 74.48.19.232
+    port: 20147
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42148
+    type: vmess
+    server: 74.48.19.232
+    port: 20148
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42149
+    type: vmess
+    server: 74.48.19.232
+    port: 20149
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42150
+    type: vmess
+    server: 74.48.19.232
+    port: 20150
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42151
+    type: vmess
+    server: 74.48.19.232
+    port: 20151
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42152
+    type: vmess
+    server: 74.48.19.232
+    port: 20152
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42153
+    type: vmess
+    server: 74.48.19.232
+    port: 20153
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42154
+    type: vmess
+    server: 74.48.19.232
+    port: 20154
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42155
+    type: vmess
+    server: 74.48.19.232
+    port: 20155
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42156
+    type: vmess
+    server: 74.48.19.232
+    port: 20156
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42157
+    type: vmess
+    server: 74.48.19.232
+    port: 20157
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42158
+    type: vmess
+    server: 74.48.19.232
+    port: 20158
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42159
+    type: vmess
+    server: 74.48.19.232
+    port: 20159
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42160
+    type: vmess
+    server: 74.48.19.232
+    port: 20160
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42161
+    type: vmess
+    server: 74.48.19.232
+    port: 20161
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42162
+    type: vmess
+    server: 74.48.19.232
+    port: 20162
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42163
+    type: vmess
+    server: 74.48.19.232
+    port: 20163
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42164
+    type: vmess
+    server: 74.48.19.232
+    port: 20164
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42165
+    type: vmess
+    server: 74.48.19.232
+    port: 20165
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42166
+    type: vmess
+    server: 74.48.19.232
+    port: 20166
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42167
+    type: vmess
+    server: 74.48.19.232
+    port: 20167
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42168
+    type: vmess
+    server: 74.48.19.232
+    port: 20168
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42169
+    type: vmess
+    server: 74.48.19.232
+    port: 20169
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42170
+    type: vmess
+    server: 74.48.19.232
+    port: 20170
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42171
+    type: vmess
+    server: 74.48.19.232
+    port: 20171
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42172
+    type: vmess
+    server: 74.48.19.232
+    port: 20172
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42173
+    type: vmess
+    server: 74.48.19.232
+    port: 20173
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42174
+    type: vmess
+    server: 74.48.19.232
+    port: 20174
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42175
+    type: vmess
+    server: 74.48.19.232
+    port: 20175
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42176
+    type: vmess
+    server: 74.48.19.232
+    port: 20176
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42177
+    type: vmess
+    server: 74.48.19.232
+    port: 20177
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42178
+    type: vmess
+    server: 74.48.19.232
+    port: 20178
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42179
+    type: vmess
+    server: 74.48.19.232
+    port: 20179
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42180
+    type: vmess
+    server: 74.48.19.232
+    port: 20180
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42181
+    type: vmess
+    server: 74.48.19.232
+    port: 20181
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42182
+    type: vmess
+    server: 74.48.19.232
+    port: 20182
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42183
+    type: vmess
+    server: 74.48.19.232
+    port: 20183
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42184
+    type: vmess
+    server: 74.48.19.232
+    port: 20184
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42185
+    type: vmess
+    server: 74.48.19.232
+    port: 20185
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42186
+    type: vmess
+    server: 74.48.19.232
+    port: 20186
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42187
+    type: vmess
+    server: 74.48.19.232
+    port: 20187
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42188
+    type: vmess
+    server: 74.48.19.232
+    port: 20188
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42189
+    type: vmess
+    server: 74.48.19.232
+    port: 20189
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42190
+    type: vmess
+    server: 74.48.19.232
+    port: 20190
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42191
+    type: vmess
+    server: 74.48.19.232
+    port: 20191
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42192
+    type: vmess
+    server: 74.48.19.232
+    port: 20192
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42193
+    type: vmess
+    server: 74.48.19.232
+    port: 20193
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42194
+    type: vmess
+    server: 74.48.19.232
+    port: 20194
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42195
+    type: vmess
+    server: 74.48.19.232
+    port: 20195
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42196
+    type: vmess
+    server: 74.48.19.232
+    port: 20196
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42197
+    type: vmess
+    server: 74.48.19.232
+    port: 20197
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42198
+    type: vmess
+    server: 74.48.19.232
+    port: 20198
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42199
+    type: vmess
+    server: 74.48.19.232
+    port: 20199
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42200
+    type: vmess
+    server: 74.48.19.232
+    port: 20200
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42201
+    type: vmess
+    server: 74.48.19.232
+    port: 20201
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42202
+    type: vmess
+    server: 74.48.19.232
+    port: 20202
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42203
+    type: vmess
+    server: 74.48.19.232
+    port: 20203
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42204
+    type: vmess
+    server: 74.48.19.232
+    port: 20204
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42205
+    type: vmess
+    server: 74.48.19.232
+    port: 20205
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42206
+    type: vmess
+    server: 74.48.19.232
+    port: 20206
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42207
+    type: vmess
+    server: 74.48.19.232
+    port: 20207
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42208
+    type: vmess
+    server: 74.48.19.232
+    port: 20208
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42209
+    type: vmess
+    server: 74.48.19.232
+    port: 20209
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42210
+    type: vmess
+    server: 74.48.19.232
+    port: 20210
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42211
+    type: vmess
+    server: 74.48.19.232
+    port: 20211
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42212
+    type: vmess
+    server: 74.48.19.232
+    port: 20212
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42213
+    type: vmess
+    server: 74.48.19.232
+    port: 20213
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42214
+    type: vmess
+    server: 74.48.19.232
+    port: 20214
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42215
+    type: vmess
+    server: 74.48.19.232
+    port: 20215
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42216
+    type: vmess
+    server: 74.48.19.232
+    port: 20216
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42217
+    type: vmess
+    server: 74.48.19.232
+    port: 20217
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42218
+    type: vmess
+    server: 74.48.19.232
+    port: 20218
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42219
+    type: vmess
+    server: 74.48.19.232
+    port: 20219
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42220
+    type: vmess
+    server: 74.48.19.232
+    port: 20220
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42221
+    type: vmess
+    server: 74.48.19.232
+    port: 20221
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42222
+    type: vmess
+    server: 74.48.19.232
+    port: 20222
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42223
+    type: vmess
+    server: 74.48.19.232
+    port: 20223
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42224
+    type: vmess
+    server: 74.48.19.232
+    port: 20224
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42225
+    type: vmess
+    server: 74.48.19.232
+    port: 20225
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42226
+    type: vmess
+    server: 74.48.19.232
+    port: 20226
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42227
+    type: vmess
+    server: 74.48.19.232
+    port: 20227
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42228
+    type: vmess
+    server: 74.48.19.232
+    port: 20228
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42229
+    type: vmess
+    server: 74.48.19.232
+    port: 20229
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42230
+    type: vmess
+    server: 74.48.19.232
+    port: 20230
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42231
+    type: vmess
+    server: 74.48.19.232
+    port: 20231
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42232
+    type: vmess
+    server: 74.48.19.232
+    port: 20232
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42233
+    type: vmess
+    server: 74.48.19.232
+    port: 20233
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42234
+    type: vmess
+    server: 74.48.19.232
+    port: 20234
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42235
+    type: vmess
+    server: 74.48.19.232
+    port: 20235
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42236
+    type: vmess
+    server: 74.48.19.232
+    port: 20236
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42237
+    type: vmess
+    server: 74.48.19.232
+    port: 20237
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42238
+    type: vmess
+    server: 74.48.19.232
+    port: 20238
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42239
+    type: vmess
+    server: 74.48.19.232
+    port: 20239
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42240
+    type: vmess
+    server: 74.48.19.232
+    port: 20240
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42241
+    type: vmess
+    server: 74.48.19.232
+    port: 20241
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42242
+    type: vmess
+    server: 74.48.19.232
+    port: 20242
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42243
+    type: vmess
+    server: 74.48.19.232
+    port: 20243
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42244
+    type: vmess
+    server: 74.48.19.232
+    port: 20244
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42245
+    type: vmess
+    server: 74.48.19.232
+    port: 20245
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42246
+    type: vmess
+    server: 74.48.19.232
+    port: 20246
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42247
+    type: vmess
+    server: 74.48.19.232
+    port: 20247
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42248
+    type: vmess
+    server: 74.48.19.232
+    port: 20248
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42249
+    type: vmess
+    server: 74.48.19.232
+    port: 20249
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42250
+    type: vmess
+    server: 74.48.19.232
+    port: 20250
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42251
+    type: vmess
+    server: 74.48.19.232
+    port: 20251
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42252
+    type: vmess
+    server: 74.48.19.232
+    port: 20252
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42253
+    type: vmess
+    server: 74.48.19.232
+    port: 20253
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42254
+    type: vmess
+    server: 74.48.19.232
+    port: 20254
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42255
+    type: vmess
+    server: 74.48.19.232
+    port: 20255
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42256
+    type: vmess
+    server: 74.48.19.232
+    port: 20256
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42257
+    type: vmess
+    server: 74.48.19.232
+    port: 20257
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42258
+    type: vmess
+    server: 74.48.19.232
+    port: 20258
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42259
+    type: vmess
+    server: 74.48.19.232
+    port: 20259
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42260
+    type: vmess
+    server: 74.48.19.232
+    port: 20260
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42261
+    type: vmess
+    server: 74.48.19.232
+    port: 20261
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42262
+    type: vmess
+    server: 74.48.19.232
+    port: 20262
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42263
+    type: vmess
+    server: 74.48.19.232
+    port: 20263
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42264
+    type: vmess
+    server: 74.48.19.232
+    port: 20264
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42265
+    type: vmess
+    server: 74.48.19.232
+    port: 20265
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42266
+    type: vmess
+    server: 74.48.19.232
+    port: 20266
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42267
+    type: vmess
+    server: 74.48.19.232
+    port: 20267
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42268
+    type: vmess
+    server: 74.48.19.232
+    port: 20268
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42269
+    type: vmess
+    server: 74.48.19.232
+    port: 20269
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42270
+    type: vmess
+    server: 74.48.19.232
+    port: 20270
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42271
+    type: vmess
+    server: 74.48.19.232
+    port: 20271
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42272
+    type: vmess
+    server: 74.48.19.232
+    port: 20272
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42273
+    type: vmess
+    server: 74.48.19.232
+    port: 20273
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42274
+    type: vmess
+    server: 74.48.19.232
+    port: 20274
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42275
+    type: vmess
+    server: 74.48.19.232
+    port: 20275
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42276
+    type: vmess
+    server: 74.48.19.232
+    port: 20276
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42277
+    type: vmess
+    server: 74.48.19.232
+    port: 20277
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42278
+    type: vmess
+    server: 74.48.19.232
+    port: 20278
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42279
+    type: vmess
+    server: 74.48.19.232
+    port: 20279
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42280
+    type: vmess
+    server: 74.48.19.232
+    port: 20280
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42281
+    type: vmess
+    server: 74.48.19.232
+    port: 20281
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42282
+    type: vmess
+    server: 74.48.19.232
+    port: 20282
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42283
+    type: vmess
+    server: 74.48.19.232
+    port: 20283
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42284
+    type: vmess
+    server: 74.48.19.232
+    port: 20284
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42285
+    type: vmess
+    server: 74.48.19.232
+    port: 20285
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42286
+    type: vmess
+    server: 74.48.19.232
+    port: 20286
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42287
+    type: vmess
+    server: 74.48.19.232
+    port: 20287
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42288
+    type: vmess
+    server: 74.48.19.232
+    port: 20288
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42289
+    type: vmess
+    server: 74.48.19.232
+    port: 20289
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42290
+    type: vmess
+    server: 74.48.19.232
+    port: 20290
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42291
+    type: vmess
+    server: 74.48.19.232
+    port: 20291
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42292
+    type: vmess
+    server: 74.48.19.232
+    port: 20292
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42293
+    type: vmess
+    server: 74.48.19.232
+    port: 20293
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42294
+    type: vmess
+    server: 74.48.19.232
+    port: 20294
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42295
+    type: vmess
+    server: 74.48.19.232
+    port: 20295
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42296
+    type: vmess
+    server: 74.48.19.232
+    port: 20296
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42297
+    type: vmess
+    server: 74.48.19.232
+    port: 20297
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42298
+    type: vmess
+    server: 74.48.19.232
+    port: 20298
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42299
+    type: vmess
+    server: 74.48.19.232
+    port: 20299
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42300
+    type: vmess
+    server: 74.48.19.232
+    port: 20300
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42301
+    type: vmess
+    server: 74.48.19.232
+    port: 20301
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42302
+    type: vmess
+    server: 74.48.19.232
+    port: 20302
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42303
+    type: vmess
+    server: 74.48.19.232
+    port: 20303
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42304
+    type: vmess
+    server: 74.48.19.232
+    port: 20304
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42305
+    type: vmess
+    server: 74.48.19.232
+    port: 20305
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42306
+    type: vmess
+    server: 74.48.19.232
+    port: 20306
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42307
+    type: vmess
+    server: 74.48.19.232
+    port: 20307
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42308
+    type: vmess
+    server: 74.48.19.232
+    port: 20308
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42309
+    type: vmess
+    server: 74.48.19.232
+    port: 20309
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42310
+    type: vmess
+    server: 74.48.19.232
+    port: 20310
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42311
+    type: vmess
+    server: 74.48.19.232
+    port: 20311
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42312
+    type: vmess
+    server: 74.48.19.232
+    port: 20312
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42313
+    type: vmess
+    server: 74.48.19.232
+    port: 20313
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42314
+    type: vmess
+    server: 74.48.19.232
+    port: 20314
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42315
+    type: vmess
+    server: 74.48.19.232
+    port: 20315
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42316
+    type: vmess
+    server: 74.48.19.232
+    port: 20316
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42317
+    type: vmess
+    server: 74.48.19.232
+    port: 20317
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42318
+    type: vmess
+    server: 74.48.19.232
+    port: 20318
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42319
+    type: vmess
+    server: 74.48.19.232
+    port: 20319
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42320
+    type: vmess
+    server: 74.48.19.232
+    port: 20320
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42321
+    type: vmess
+    server: 74.48.19.232
+    port: 20321
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42322
+    type: vmess
+    server: 74.48.19.232
+    port: 20322
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42323
+    type: vmess
+    server: 74.48.19.232
+    port: 20323
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42324
+    type: vmess
+    server: 74.48.19.232
+    port: 20324
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42325
+    type: vmess
+    server: 74.48.19.232
+    port: 20325
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42326
+    type: vmess
+    server: 74.48.19.232
+    port: 20326
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42327
+    type: vmess
+    server: 74.48.19.232
+    port: 20327
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42328
+    type: vmess
+    server: 74.48.19.232
+    port: 20328
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42329
+    type: vmess
+    server: 74.48.19.232
+    port: 20329
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42330
+    type: vmess
+    server: 74.48.19.232
+    port: 20330
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42331
+    type: vmess
+    server: 74.48.19.232
+    port: 20331
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42332
+    type: vmess
+    server: 74.48.19.232
+    port: 20332
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42333
+    type: vmess
+    server: 74.48.19.232
+    port: 20333
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42334
+    type: vmess
+    server: 74.48.19.232
+    port: 20334
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42335
+    type: vmess
+    server: 74.48.19.232
+    port: 20335
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42336
+    type: vmess
+    server: 74.48.19.232
+    port: 20336
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42337
+    type: vmess
+    server: 74.48.19.232
+    port: 20337
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42338
+    type: vmess
+    server: 74.48.19.232
+    port: 20338
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42339
+    type: vmess
+    server: 74.48.19.232
+    port: 20339
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42340
+    type: vmess
+    server: 74.48.19.232
+    port: 20340
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42341
+    type: vmess
+    server: 74.48.19.232
+    port: 20341
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42342
+    type: vmess
+    server: 74.48.19.232
+    port: 20342
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42343
+    type: vmess
+    server: 74.48.19.232
+    port: 20343
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42344
+    type: vmess
+    server: 74.48.19.232
+    port: 20344
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42345
+    type: vmess
+    server: 74.48.19.232
+    port: 20345
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42346
+    type: vmess
+    server: 74.48.19.232
+    port: 20346
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42347
+    type: vmess
+    server: 74.48.19.232
+    port: 20347
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42348
+    type: vmess
+    server: 74.48.19.232
+    port: 20348
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42349
+    type: vmess
+    server: 74.48.19.232
+    port: 20349
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42350
+    type: vmess
+    server: 74.48.19.232
+    port: 20350
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42351
+    type: vmess
+    server: 74.48.19.232
+    port: 20351
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42352
+    type: vmess
+    server: 74.48.19.232
+    port: 20352
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42353
+    type: vmess
+    server: 74.48.19.232
+    port: 20353
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42354
+    type: vmess
+    server: 74.48.19.232
+    port: 20354
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42355
+    type: vmess
+    server: 74.48.19.232
+    port: 20355
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42356
+    type: vmess
+    server: 74.48.19.232
+    port: 20356
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42357
+    type: vmess
+    server: 74.48.19.232
+    port: 20357
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42358
+    type: vmess
+    server: 74.48.19.232
+    port: 20358
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42359
+    type: vmess
+    server: 74.48.19.232
+    port: 20359
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42360
+    type: vmess
+    server: 74.48.19.232
+    port: 20360
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42361
+    type: vmess
+    server: 74.48.19.232
+    port: 20361
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42362
+    type: vmess
+    server: 74.48.19.232
+    port: 20362
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42363
+    type: vmess
+    server: 74.48.19.232
+    port: 20363
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42364
+    type: vmess
+    server: 74.48.19.232
+    port: 20364
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42365
+    type: vmess
+    server: 74.48.19.232
+    port: 20365
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42366
+    type: vmess
+    server: 74.48.19.232
+    port: 20366
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42367
+    type: vmess
+    server: 74.48.19.232
+    port: 20367
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42368
+    type: vmess
+    server: 74.48.19.232
+    port: 20368
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42369
+    type: vmess
+    server: 74.48.19.232
+    port: 20369
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42370
+    type: vmess
+    server: 74.48.19.232
+    port: 20370
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42371
+    type: vmess
+    server: 74.48.19.232
+    port: 20371
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42372
+    type: vmess
+    server: 74.48.19.232
+    port: 20372
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42373
+    type: vmess
+    server: 74.48.19.232
+    port: 20373
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42374
+    type: vmess
+    server: 74.48.19.232
+    port: 20374
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42375
+    type: vmess
+    server: 74.48.19.232
+    port: 20375
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42376
+    type: vmess
+    server: 74.48.19.232
+    port: 20376
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42377
+    type: vmess
+    server: 74.48.19.232
+    port: 20377
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42378
+    type: vmess
+    server: 74.48.19.232
+    port: 20378
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42379
+    type: vmess
+    server: 74.48.19.232
+    port: 20379
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42380
+    type: vmess
+    server: 74.48.19.232
+    port: 20380
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42381
+    type: vmess
+    server: 74.48.19.232
+    port: 20381
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42382
+    type: vmess
+    server: 74.48.19.232
+    port: 20382
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42383
+    type: vmess
+    server: 74.48.19.232
+    port: 20383
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42384
+    type: vmess
+    server: 74.48.19.232
+    port: 20384
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42385
+    type: vmess
+    server: 74.48.19.232
+    port: 20385
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42386
+    type: vmess
+    server: 74.48.19.232
+    port: 20386
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42387
+    type: vmess
+    server: 74.48.19.232
+    port: 20387
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42388
+    type: vmess
+    server: 74.48.19.232
+    port: 20388
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42389
+    type: vmess
+    server: 74.48.19.232
+    port: 20389
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42390
+    type: vmess
+    server: 74.48.19.232
+    port: 20390
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42391
+    type: vmess
+    server: 74.48.19.232
+    port: 20391
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42392
+    type: vmess
+    server: 74.48.19.232
+    port: 20392
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42393
+    type: vmess
+    server: 74.48.19.232
+    port: 20393
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42394
+    type: vmess
+    server: 74.48.19.232
+    port: 20394
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42395
+    type: vmess
+    server: 74.48.19.232
+    port: 20395
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42396
+    type: vmess
+    server: 74.48.19.232
+    port: 20396
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42397
+    type: vmess
+    server: 74.48.19.232
+    port: 20397
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42398
+    type: vmess
+    server: 74.48.19.232
+    port: 20398
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42399
+    type: vmess
+    server: 74.48.19.232
+    port: 20399
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42400
+    type: vmess
+    server: 74.48.19.232
+    port: 20400
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42401
+    type: vmess
+    server: 74.48.19.232
+    port: 20401
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42402
+    type: vmess
+    server: 74.48.19.232
+    port: 20402
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42403
+    type: vmess
+    server: 74.48.19.232
+    port: 20403
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42404
+    type: vmess
+    server: 74.48.19.232
+    port: 20404
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42405
+    type: vmess
+    server: 74.48.19.232
+    port: 20405
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42406
+    type: vmess
+    server: 74.48.19.232
+    port: 20406
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42407
+    type: vmess
+    server: 74.48.19.232
+    port: 20407
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42408
+    type: vmess
+    server: 74.48.19.232
+    port: 20408
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42409
+    type: vmess
+    server: 74.48.19.232
+    port: 20409
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42410
+    type: vmess
+    server: 74.48.19.232
+    port: 20410
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42411
+    type: vmess
+    server: 74.48.19.232
+    port: 20411
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42412
+    type: vmess
+    server: 74.48.19.232
+    port: 20412
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42413
+    type: vmess
+    server: 74.48.19.232
+    port: 20413
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42414
+    type: vmess
+    server: 74.48.19.232
+    port: 20414
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42415
+    type: vmess
+    server: 74.48.19.232
+    port: 20415
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42416
+    type: vmess
+    server: 74.48.19.232
+    port: 20416
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42417
+    type: vmess
+    server: 74.48.19.232
+    port: 20417
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42418
+    type: vmess
+    server: 74.48.19.232
+    port: 20418
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42419
+    type: vmess
+    server: 74.48.19.232
+    port: 20419
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42420
+    type: vmess
+    server: 74.48.19.232
+    port: 20420
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42421
+    type: vmess
+    server: 74.48.19.232
+    port: 20421
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42422
+    type: vmess
+    server: 74.48.19.232
+    port: 20422
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42423
+    type: vmess
+    server: 74.48.19.232
+    port: 20423
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42424
+    type: vmess
+    server: 74.48.19.232
+    port: 20424
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42425
+    type: vmess
+    server: 74.48.19.232
+    port: 20425
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42426
+    type: vmess
+    server: 74.48.19.232
+    port: 20426
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42427
+    type: vmess
+    server: 74.48.19.232
+    port: 20427
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42428
+    type: vmess
+    server: 74.48.19.232
+    port: 20428
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42429
+    type: vmess
+    server: 74.48.19.232
+    port: 20429
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42430
+    type: vmess
+    server: 74.48.19.232
+    port: 20430
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42431
+    type: vmess
+    server: 74.48.19.232
+    port: 20431
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42432
+    type: vmess
+    server: 74.48.19.232
+    port: 20432
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42433
+    type: vmess
+    server: 74.48.19.232
+    port: 20433
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42434
+    type: vmess
+    server: 74.48.19.232
+    port: 20434
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42435
+    type: vmess
+    server: 74.48.19.232
+    port: 20435
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42436
+    type: vmess
+    server: 74.48.19.232
+    port: 20436
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42437
+    type: vmess
+    server: 74.48.19.232
+    port: 20437
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42438
+    type: vmess
+    server: 74.48.19.232
+    port: 20438
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42439
+    type: vmess
+    server: 74.48.19.232
+    port: 20439
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42440
+    type: vmess
+    server: 74.48.19.232
+    port: 20440
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42441
+    type: vmess
+    server: 74.48.19.232
+    port: 20441
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42442
+    type: vmess
+    server: 74.48.19.232
+    port: 20442
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42443
+    type: vmess
+    server: 74.48.19.232
+    port: 20443
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42444
+    type: vmess
+    server: 74.48.19.232
+    port: 20444
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42445
+    type: vmess
+    server: 74.48.19.232
+    port: 20445
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42446
+    type: vmess
+    server: 74.48.19.232
+    port: 20446
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42447
+    type: vmess
+    server: 74.48.19.232
+    port: 20447
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42448
+    type: vmess
+    server: 74.48.19.232
+    port: 20448
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42449
+    type: vmess
+    server: 74.48.19.232
+    port: 20449
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42450
+    type: vmess
+    server: 74.48.19.232
+    port: 20450
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42451
+    type: vmess
+    server: 74.48.19.232
+    port: 20451
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42452
+    type: vmess
+    server: 74.48.19.232
+    port: 20452
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42453
+    type: vmess
+    server: 74.48.19.232
+    port: 20453
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42454
+    type: vmess
+    server: 74.48.19.232
+    port: 20454
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42455
+    type: vmess
+    server: 74.48.19.232
+    port: 20455
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42456
+    type: vmess
+    server: 74.48.19.232
+    port: 20456
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42457
+    type: vmess
+    server: 74.48.19.232
+    port: 20457
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42458
+    type: vmess
+    server: 74.48.19.232
+    port: 20458
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42459
+    type: vmess
+    server: 74.48.19.232
+    port: 20459
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42460
+    type: vmess
+    server: 74.48.19.232
+    port: 20460
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42461
+    type: vmess
+    server: 74.48.19.232
+    port: 20461
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42462
+    type: vmess
+    server: 74.48.19.232
+    port: 20462
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42463
+    type: vmess
+    server: 74.48.19.232
+    port: 20463
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42464
+    type: vmess
+    server: 74.48.19.232
+    port: 20464
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42465
+    type: vmess
+    server: 74.48.19.232
+    port: 20465
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42466
+    type: vmess
+    server: 74.48.19.232
+    port: 20466
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42467
+    type: vmess
+    server: 74.48.19.232
+    port: 20467
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42468
+    type: vmess
+    server: 74.48.19.232
+    port: 20468
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42469
+    type: vmess
+    server: 74.48.19.232
+    port: 20469
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42470
+    type: vmess
+    server: 74.48.19.232
+    port: 20470
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42471
+    type: vmess
+    server: 74.48.19.232
+    port: 20471
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42472
+    type: vmess
+    server: 74.48.19.232
+    port: 20472
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42473
+    type: vmess
+    server: 74.48.19.232
+    port: 20473
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42474
+    type: vmess
+    server: 74.48.19.232
+    port: 20474
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42475
+    type: vmess
+    server: 74.48.19.232
+    port: 20475
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42476
+    type: vmess
+    server: 74.48.19.232
+    port: 20476
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42477
+    type: vmess
+    server: 74.48.19.232
+    port: 20477
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42478
+    type: vmess
+    server: 74.48.19.232
+    port: 20478
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42479
+    type: vmess
+    server: 74.48.19.232
+    port: 20479
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42480
+    type: vmess
+    server: 74.48.19.232
+    port: 20480
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42481
+    type: vmess
+    server: 74.48.19.232
+    port: 20481
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42482
+    type: vmess
+    server: 74.48.19.232
+    port: 20482
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42483
+    type: vmess
+    server: 74.48.19.232
+    port: 20483
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42484
+    type: vmess
+    server: 74.48.19.232
+    port: 20484
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42485
+    type: vmess
+    server: 74.48.19.232
+    port: 20485
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42486
+    type: vmess
+    server: 74.48.19.232
+    port: 20486
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42487
+    type: vmess
+    server: 74.48.19.232
+    port: 20487
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42488
+    type: vmess
+    server: 74.48.19.232
+    port: 20488
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42489
+    type: vmess
+    server: 74.48.19.232
+    port: 20489
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42490
+    type: vmess
+    server: 74.48.19.232
+    port: 20490
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42491
+    type: vmess
+    server: 74.48.19.232
+    port: 20491
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42492
+    type: vmess
+    server: 74.48.19.232
+    port: 20492
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42493
+    type: vmess
+    server: 74.48.19.232
+    port: 20493
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42494
+    type: vmess
+    server: 74.48.19.232
+    port: 20494
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42495
+    type: vmess
+    server: 74.48.19.232
+    port: 20495
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42496
+    type: vmess
+    server: 74.48.19.232
+    port: 20496
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42497
+    type: vmess
+    server: 74.48.19.232
+    port: 20497
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42498
+    type: vmess
+    server: 74.48.19.232
+    port: 20498
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
+  - name: proxy42499
+    type: vmess
+    server: 74.48.19.232
+    port: 20499
+    uuid: 592297ff-7786-42bb-a59d-00beb4a9be7b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts: 
+      path: /ws
