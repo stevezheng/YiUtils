@@ -63,7 +63,7 @@ def generate_xray_json(start_port=20000, begin_ipv6='2401:b60:e00e:7121::', coun
     }]
 
     # 初始化出站和路由规则
-    outbounds = [{"protocol": "blackhole", "settings": {}, "tag": "blocked"}]
+    outbounds = [{"protocol": "freedom", "settings": {} },{"protocol": "blackhole", "settings": {}, "tag": "blocked"}]
     routing_rules = [
         {"inboundTag": ["api"], "outboundTag": "api", "type": "field"},
         {"ip": ["geoip:private"], "outboundTag": "blocked", "type": "field"},
@@ -116,8 +116,8 @@ def generate_xray_json(start_port=20000, begin_ipv6='2401:b60:e00e:7121::', coun
 
 if __name__ == "__main__":
     generate_xray_json(
-        start_port=30000,
-        begin_ipv6='2401:b60:e00e:7121::2',
+        start_port=55000,
+        begin_ipv6='2a0a:4cc0:1:46:544b:93ff:fe6b:2051',
         count=300,
         netmask=127
     )
