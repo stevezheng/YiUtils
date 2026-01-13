@@ -19,7 +19,7 @@ dns:
     return config, listeners_config, proxies_config
 
 if __name__ == "__main__":
-    config, listeners_config, proxies_config = gen(55000, 55000, 300, '89.58.62.25', '45ba725f-0685-41fa-9ac4-b1bd98a80f3a', '/ws')
+    config, listeners_config, proxies_config = gen(50000, 50000, 1000, '141.11.217.164', '0c24acb1-4abd-4b1d-9216-ccb61dfedcd8', '/wss')
     pre = 'de'
     with open(pre + '_config.yml', 'w') as f:
         f.write(config)
